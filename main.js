@@ -74,7 +74,7 @@ function password_validation(password) {
     return true;
 }
 
-function confirm_password_validation(password, confirm_password) { 
+function confirm_password_validation(password, confirm_password) {
     if (password != confirm_password) {
         alert("Password & Confirm Password should be same");
         confirm_password.focus();
