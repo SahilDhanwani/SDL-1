@@ -1,6 +1,6 @@
 <?php
 
-$registered_emails = array();
+$registered_emails = array("sahil@gmail.com", "hello@gmail.com");
 
 function is_email_registered($email, $registered_emails) {
     return in_array($email, $registered_emails);
